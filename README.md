@@ -25,3 +25,9 @@ This project is a simple, responsive e-commerce template designed for selling ga
    ```sh
    cd Gamepad-HTML-Template
 3. Open `index.html` in your web browser to view the template.
+
+   or
+
+   type this command for run index file:
+   ```sh
+   index.html
