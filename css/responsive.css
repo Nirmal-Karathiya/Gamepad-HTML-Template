@@ -1,0 +1,233 @@
+@media only screen and (max-width : 896px) {
+    .slider {
+        display: flex;
+    }
+
+    .pages-wrapper {
+        display: none;
+    }
+
+    .inside-header-wrapper {
+        justify-content: space-between;
+    }
+
+    .slider-wrapper{
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 860px) {
+    .first-section-wrapper {
+        display: block;
+        padding: 35px 0 35px;
+    }
+
+    .left-first-section-wrapper,
+    .right-first-section-wrapper {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .lfsw-swipper {
+        display: none;
+    }
+
+    .second-section-wrapper {
+        padding-left: 0;
+        padding-right: 50px;
+    }
+
+    .third-section-wrapper {
+        padding: 35px 0 35px;
+    }
+
+    .tsw-product {
+        display: block;
+    }
+
+    .tsw-paragraph{
+        padding: 20px;
+    }
+
+    .left-tsw-product,
+    .right-tsw-product {
+        margin: 0 auto;
+        width : 80%;
+    }
+
+    .tsw-product-image img {
+        width: 300px;
+    }
+
+    .fourth-section-wrapper {
+        display: block;
+        padding: 35px 0 0;
+    }
+
+    .left-fourth-section-wrapper,
+    .right-fourth-section-wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .right-fourth-section-wrapper img {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .form-section-wrapper {
+        padding: 35px 0 35px;
+    }
+
+    .footer-wrapper{
+        padding: 35px 30px 0;
+    }
+    .footer-wrapper input{
+        width : 94%;
+    }
+    .footer-info-wrapper{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .footer-info-1, .footer-info-2, .footer-info-3, .footer-info-4{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+    .first-section-wrapper img {
+        width: 350px;
+        height: 100%;
+    }
+
+    .second-section-wrapper {
+        padding-right: 0;
+        display: block;
+    }
+
+    .left-second-section-wrapper,
+    .right-second-section-wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .image-second-section-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .image-second-section-wrapper img {
+        width: 100%;
+    }
+
+    .third-section-wrapper h1 {
+        font-size: 33px;
+    }
+
+    .left-tsw-product,
+    .right-tsw-product {
+        width: 80%;
+    }
+
+    .left-tsw-product,
+    .right-tsw-product,
+    .tsw-product-description {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tsw-paragraph {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tsw-paragraph,
+    .tsw-product-description p {
+        font-size: 13px;
+    }
+
+    .testimonial-wrapper {
+        padding: 35px 0 35px;
+    }
+
+    .t-box {
+        width: 80vw;
+    }
+
+    .form-section-wrapper {
+        display: block;
+    }
+    .form-wrapper{
+        margin : 0 auto;
+        width : 80%;
+    }
+    .form-image-wrapper{
+        margin : 20px auto;
+        width : 80%;
+    }
+
+    .footer-copyright p{
+        font-size: 14px;
+    }
+    .form-wrapper{
+        padding: 0;
+    }
+    .footer-info-wrapper{
+        grid-template-columns: 100%;
+    }
+    .footer-info-1, .footer-info-2, .footer-info-3, .footer-info-4{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    .left-first-section-wrapper{
+        margin: 0 0 0 20px;
+        text-align: center;
+        width : 90%;
+    }
+    .first-section-wrapper img{
+        width : 100%;
+    }
+    .lfsw-header h1, .lfsw-header h2{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .lfsw-header{
+        margin-bottom: 20px;
+    }
+    .third-section-wrapper img{
+        width : 100%;
+    }
+    .fourth-section-wrapper img{
+        width: 100%;
+    }
+    .left-fourth-section-wrapper h1{
+        font-size: 25px;
+    }
+    .left-fourth-section-wrapper .name{
+        padding-right : 0;
+        padding-bottom: 10px;
+    }
+    .left-fourth-section-wrapper{
+        margin : 0 0 0 10px;
+        width : 90%;
+    }
+    .t-box{
+        padding : 10px;
+        margin : 10px auto;
+        width : 90%;
+    }
+    .form-section-wrapper img{
+        width : 80%;
+    }
+    .form-image-wrapper{
+        margin : 20px auto;
+        width: 90%;
+    }
+    
+    .footer-copyright p{
+        font-size: 12px;
+    }
+}
