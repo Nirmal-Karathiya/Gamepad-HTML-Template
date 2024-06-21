@@ -23,5 +23,5 @@ This project is a simple, responsive e-commerce template designed for selling ga
    git clone https://github.com/nirmal-karathiya/Gamepad-HTML-Template.git
 2. Navigate to the project directory:
    ```sh
-   cd gamepad-ecommerce-template
+   cd Gamepad-HTML-Template
 3. Open `index.html` in your web browser to view the template.
